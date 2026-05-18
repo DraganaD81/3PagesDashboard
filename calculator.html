@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3 Pages Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <script defer src="js/scriptTodos.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Page content -->
+      <aside>
+        <!-- Sidebar -->
+        <nav class="sidebar-nav">
+          <ul class="sidebar-nav-list">
+            <li>
+              <a class="sidebar-nav-link" href="/users.html"
+                ><i class="fa-solid fa-user-group"></i>Users</a
+              >
+            </li>
+            <li>
+              <a class="sidebar-nav-link nav-active" href="/calculator.html"
+                ><i class="fa-solid fa-calculator"></i>Calculator</a
+              >
+            </li>
+            <li>
+              <a class="sidebar-nav-link" href="/todos.html"
+                ><i class="fa-regular fa-calendar-check"></i>TODOS</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <div class="content">
+        <header class="header">
+          <div class="left-header-content">
+            <i class="fa-solid fa-xmark"></i>
+            <i class="fa-solid fa-d"></i>
+            <!-- <img
+              class="logo"
+              alt="3 Pages Dashboard logo"
+              src="assets/img/logo.jpg"
+            /> -->
+          </div>
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li>
+                <a class="main-nav-link" href="/users.html">Users</a>
+              </li>
+              <li>
+                <a class="main-nav-link nav-active" href="/calculator.html"
+                  >Calculator</a
+                >
+              </li>
+              <li>
+                <a class="main-nav-link" href="/todos.html">TODOS</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="user-login">Dragana Dragićević</div>
+        </header>
+        <main id="main-content">
+          <article>
+            <!-- Main content -->
+            <section class="calculator" id="calculator">
+              <div class="page-header">
+                <h1 class="page-title">Calculator</h1>
+              </div>
+              <div class="calculator">
+                <div class="calculator-elements">
+                  <input class="text-input" type="text" />
+                  <div class="right-box">
+                    <button class="btn btn-delete-left"></button>
+                    <button class="btn btn-delete">C</button>
+                  </div>
+                  <div class="content">
+                    <div class="numbers">
+                      <div class="flex-row">
+                        <button class="btn">1</button>
+                        <button class="btn">2</button>
+                        <button class="btn">3</button>
+                      </div>
+                      <div class="flex-row">
+                        <button class="btn">4</button>
+                        <button class="btn">5</button>
+                        <button class="btn">6</button>
+                      </div>
+                      <div class="flex-row">
+                        <button class="btn">7</button>
+                        <button class="btn">8</button>
+                        <button class="btn">9</button>
+                      </div>
+                      <div class="center-box">
+                        <button class="btn">0</button>
+                      </div>
+                      <div class="right-box">
+                        <button class="btn btn-minus">-</button>
+                      </div>
+                      <div>
+                        <button class="btn btn-equal">=</button>
+                      </div>
+                    </div>
+                    <div class="operators">
+                      <button class="btn">*</button>
+                      <button class="btn">%</button>
+                      <button class="btn btn-plus">+</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </article>
+        </main>
+        <footer class="footer">
+          <section class="footer-widget">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </section>
+          <section class="footer-widget">
+            <p>Email: contact@dashboard.com</p>
+            <p>Phone: +1 (555) 123-4567</p>
+          </section>
+          <section class="footer-widget">
+            <p>
+              <a href="#">Visit our website</a>
+            </p>
+          </section>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
