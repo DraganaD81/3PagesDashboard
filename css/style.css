@@ -347,6 +347,7 @@ a {
 }
 
 /* Page calculator */
+
 .calculator {
   background-color: #f9fafb;
   display: flex;
@@ -361,6 +362,10 @@ a {
 
 .btn {
   background-color: #343434;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 55px;
+  color: #fff;
   width: 135px;
   height: 115px;
   border: none;
@@ -416,9 +421,9 @@ a {
 }
 
 .calculator-body {
-  width: 650px;
-  height: 1230px;
-  margin: 50px auto 0 auto;
+  /* width: 650px;
+  height: 1230px; */
+  /* margin: 50px auto 0 auto; */
   padding: 24px 18px;
   background-color: #17171c;
   border-radius: 20px;
@@ -426,8 +431,8 @@ a {
 
 .calculator-elements {
   /* margin: 23.54px 18.54px; */
-  width: 610px;
-  height: 1180px;
+  /* width: 610px;
+  height: 1180px; */
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -436,8 +441,8 @@ a {
 
 .text-input {
   display: flex;
-  width: 610px;
-  height: 115px;
+  /* width: 610px;
+  height: 115px; */
   margin: 0;
   padding: 30px;
   text-align: right;
@@ -448,17 +453,18 @@ a {
   box-shadow: none;
 }
 
-/* .content {
-  background-color: red;
+.calculator-content {
+  /* background-color: red; */
   display: flex;
   justify-content: space-between;
-} */
+  gap: 24px;
+}
 
 .numbers {
   display: flex;
   flex-direction: column;
   width: 455px;
-  gap: 30px;
+  gap: 24px;
 }
 
 .operators {
