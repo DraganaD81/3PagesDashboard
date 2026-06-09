@@ -348,11 +348,11 @@ a {
 
 /* Page calculator */
 
+/*
 .calculator {
   background-color: #f9fafb;
   display: flex;
   flex-direction: column;
-  /* justify-content: baseline; */
   width: 1280px;
   align-items: center;
   gap: 24px;
@@ -423,7 +423,6 @@ a {
 .calculator-body {
   width: auto;
   height: 100%;
-  /* margin: 50px auto 0 auto; */
   padding: 24px 18px;
   background-color: #17171c;
   border-radius: 20px;
@@ -440,8 +439,6 @@ a {
   font-size: 46px;
   font-weight: 500;
   line-height: 55px;
-  /* width: 610px;
-  height: 115px; */
   margin: 0;
   padding: 30px;
   text-align: right;
@@ -453,7 +450,6 @@ a {
 }
 
 .calculator-content {
-  /* background-color: red; */
   display: flex;
   justify-content: space-between;
   gap: 12px;
@@ -462,7 +458,6 @@ a {
 .numbers {
   display: flex;
   flex-direction: column;
-  /* width: 455px; */
   gap: 12px;
 }
 
@@ -470,6 +465,97 @@ a {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+*/
+
+/* Calculator original */
+
+.calculator-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 448px;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+.calculator-content {
+  display: flex;
+}
+
+.calculator-elements {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 24px;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 10%);
+}
+
+.input-box {
+  width: 100%;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 0;
+  text-align: right;
+  line-height: 40px;
+  padding: 24px;
+  background-color: #101828;
+  border-radius: 10px;
+  border: none;
+}
+
+.calculator-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 96px;
+  height: 64px;
+  background-color: #fff;
+  border: 1px solid #0000001a;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.btn-reset,
+.btn-delete,
+.btn-percent {
+  background-color: #e5e7eb;
+  border-color: #e5e7eb;
+}
+
+.btn-divide,
+.btn-multiply,
+.btn-plus,
+.btn-minus {
+  background-color: #155dfc;
+  color: #fff;
+}
+
+.btn-equal {
+  background-color: #00a63e;
+  color: #fff;
+}
+
+.btn-number-0 {
+  width: 200px;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
 }
 
 /* Page todos */
