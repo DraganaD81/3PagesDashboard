@@ -470,6 +470,16 @@ a {
 */
 
 /* Calculator original */
+.calculator {
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: baseline; */
+  align-items: center;
+  width: 1280px;
+  gap: 16px;
+  margin: 0 auto;
+}
 
 .calculator-body {
   display: flex;
@@ -533,11 +543,7 @@ a {
   background-color: #e5e7eb;
   border-color: #e5e7eb;
 }
-
-.btn-divide,
-.btn-multiply,
-.btn-plus,
-.btn-minus {
+.btn-operator {
   background-color: #155dfc;
   color: #fff;
 }
